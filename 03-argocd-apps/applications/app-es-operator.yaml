@@ -16,7 +16,7 @@ spec:
       source:
         repoURL: https://github.com/devops-skill-experts/es-demo.git
         targetRevision: "{{name}}" #Based on environment
-        path: '03-argocd-apps/manifests/external-secrets'
+        path: '03-argocd-apps/manifests/elastic-system'
       destination:
         name: in-cluster
         namespace: elastic-system
