@@ -16,7 +16,7 @@ spec:
       source:
         repoURL: https://github.com/devops-skill-experts/es-demo.git
         targetRevision: "{{name}}" #Based on environment
-        path: '03-argocd-apps/manifests/longhorn'
+        path: '03-argocd-apps/manifests/longhorn-system'
         helm:
           ignoreMissingValueFiles: true
           valueFiles:
