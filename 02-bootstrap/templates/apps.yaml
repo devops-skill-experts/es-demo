@@ -9,7 +9,7 @@ spec:
 
   # Source of the application manifests
   source:
-    repoURL: https://github.com/devops-skill-experts/k3s-cluster-demo-addons.git
+    repoURL: https://github.com/devops-skill-experts/es-demo.git
     targetRevision: {{ .Values.envAlias }} #Should be based on environment
     path: '03-argocd-apps/applications'
 
